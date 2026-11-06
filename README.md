@@ -1,4 +1,4 @@
 # first-project
 first repository
-amanullah khan 
+amanullah kk
 learning how to use github

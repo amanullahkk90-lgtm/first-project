@@ -43,4 +43,8 @@ num2= "20"
 int(result = num1 + num2)
 
 
+
 print(10 + 20)
+
+print("10" + "20" +"20")
+

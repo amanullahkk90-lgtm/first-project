@@ -27,4 +27,18 @@ def replace_negative(numbers):
             result.append(num)
     return result
 
-print(replace_negative([5,-3,0,-8,9]))            
+print(replace_negative([5,-3,0,-8,9]))     
+
+
+
+
+
+def double_even(numbers):
+    result=[]
+    for num in numbers:
+        if num %2==0:
+            result.append(num*2)
+        else:
+            result.append(num)
+    return result
+print(double_even([3,4,7,4,2,0]))            

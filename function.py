@@ -70,3 +70,8 @@ calculate_discount()
 
 
 print("finale amount after discount",calculate_discount)
+
+
+import calc
+
+print(calc.add(3,4))

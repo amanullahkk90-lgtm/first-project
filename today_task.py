@@ -37,10 +37,10 @@ del student["major"]
 student.update({"city":"karachi","year":4})
 
 
-# num1= 10
-# num2= "20"
+num1= 10
+num2= "20"
 
-# int(result = num1 + num2)
+int(result = num1 + num2)
 
 
 print("10" + "20")

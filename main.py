@@ -40,3 +40,15 @@ check = eligibility.check_attendance(
 print(f"student:{student_record['name']}")
 print(f"Attendance: {student_record['attended']}/{student_record['total']}")
 print(f"can sit in exam:{check}")
+
+from practice_tools import shopping,bill,grading
+order=shopping.create_order("Aman",[400,350,450])
+finale_bill=bill.calculate_Bill(order['prices'])
+print(f"customer :{order['customer']}")
+print(f"finale bill :{finale_bill}")
+
+
+student_record2=student.create_student("Sara",[70,80,90])
+check_average=grading.find_grade(student_record2["marks"])
+print(f"student:{student_record2['name']}")
+print(f"average grade :{check_average}")

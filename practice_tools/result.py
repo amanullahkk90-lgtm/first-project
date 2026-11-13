@@ -1,6 +1,9 @@
 def check_pass(marks):
-    average=sum(marks)/len(marks)
-    if average>=50:
-        return "passed"
-    else:
-        return"failed"
+    total=0
+    count=0
+
+    for mark in marks:
+        total +=total
+        count +=1
+    average=total/count
+    return average
